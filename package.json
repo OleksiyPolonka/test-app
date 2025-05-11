@@ -1,0 +1,35 @@
+{
+  "name": "satellite-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "build:apps": "npm run build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@everywiner-com/features": "*",
+    "@everywiner-com/ui-kit": "*",
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/jest": "^29.5.14",
+    "@everywiner-com/eslint-config": "*",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^3.1.2",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "jsdom": "^26.1.0",
+    "typescript": "^5",
+    "vitest": "^3.1.2"
+  }
+}

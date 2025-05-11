@@ -1,0 +1,75 @@
+{
+  "cssVariables": {
+    "primary": "#0070f3",
+    "secondary": "#f50057",
+    "background": "#ffffff",
+    "text": "#111111"
+  },
+  "routes": [
+    {
+      "path": "/",
+      "seo": {
+        "title": "Home Page",
+        "description": "Welcome to the homepage"
+      },
+
+      "layout": [
+        {
+          "area": "header",
+          "type": "Header",
+          "props": {}
+        },
+        {
+          "area": "main",
+          "type": "Stub",
+          "props": {}
+        },
+        {
+          "area": "button",
+          "type": "Button",
+          "props": {}
+        },
+        {
+          "area": "input",
+          "type": "Input",
+          "props": {}
+        },
+        {
+          "area": "link",
+          "type": "Link",
+          "props": {}
+        },
+        {
+          "area": "footer",
+          "type": "Footer",
+          "props": {}
+        },
+        {
+          "area": "test",
+          "type": "Test",
+          "props": {}
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "seo": {
+        "title": "Home Page",
+        "description": "Welcome to the homepage"
+      },
+
+      "layout": [
+        {
+          "area": "header",
+          "type": "Header",
+          "props": {}
+        },
+        {
+          "area": "main",
+          "type": "Stub",
+          "props": {}
+        }
+      ]
+    }
+  ]
+}
